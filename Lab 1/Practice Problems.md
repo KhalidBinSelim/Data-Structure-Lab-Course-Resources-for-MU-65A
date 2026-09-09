@@ -78,22 +78,23 @@ Each problem links directly to its statement on the judge. Create an account on 
 
 ---
 
-## Hard (Combining Concepts, Careful Input Parsing, Overflow Awareness)
+## Hard (Combining Concepts, Tricky Edge Cases, Real Algorithmic Thinking)
 
-17. **Two Sum** : LeetCode 1<br>
-    Given an array and a target, find two indices whose values sum to the target. Naive array traversal works first; think about why a brute-force double loop is slow, and what a smarter approach (still array-based) would look like.
-    Link: https://leetcode.com/problems/two-sum/
+These are a step up from the Medium set on purpose: each one forces students to combine several Lab 1 ideas at once (careful character-by-character parsing, overflow detection, two-pointer array technique) and cannot be solved correctly with the first naive idea that comes to mind : the edge cases are where most submissions fail.
 
-18. **Reverse Integer** : LeetCode 7<br>
-    Reverse the digits of a signed 32-bit integer and handle the case where the reversed number overflows a 32-bit `int`. This is a direct, practical application of the integer-overflow concept from Section 15 of Lab 1 : you must detect overflow using `long long` before casting back to `int`.
-    Link: https://leetcode.com/problems/reverse-integer/
+17. **String to Integer (atoi)** : LeetCode 8<br>
+    Manually implement what `cin >> int` does internally: skip leading whitespace, handle an optional `+`/`-` sign, read digits until a non-digit appears, and clamp the result to the 32-bit signed integer range instead of overflowing. This ties directly into Sections 9, 10, and 15 of Lab 1, and is notorious for hidden edge cases (empty string, only whitespace, sign with no digits, leading zeros, overflow in both directions).
+    Link: https://leetcode.com/problems/string-to-integer-atoi/
 
-19. **Insomnia Cure** : Codeforces 148A<br>
-    Read several integers on one line with careful whitespace-separated parsing, and apply a multi-condition filter. Combines careful `cin >>` usage with array-free counting logic.
-    Link: https://codeforces.com/problemset/problem/148/A
+18. **Longest Substring Without Repeating Characters** : LeetCode 3<br>
+    Given a string, find the length of its longest substring with no repeated characters. A brute-force check of every substring is too slow for the given constraints, so this forces students to maintain a moving window over the string using two indices : a genuine step beyond simple left-to-right traversal.
+    Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-20. **Word Capitalization** : Codeforces 281A<br>
-    Read a string, modify a single character using indexing/pointer-like access, then print the result. Combines string indexing, in-place modification, and careful output formatting.
-    Link: https://codeforces.com/problemset/problem/281/A
+19. **3Sum** : LeetCode 15<br>
+    Given an array, find all unique triplets that sum to zero. Requires sorting the array first, then using a two-pointer scan for each fixed element, plus careful duplicate-skipping logic : meaningfully harder than the two-pointer array reversal covered in Lab 1.
+    Link: https://leetcode.com/problems/3sum/
 
+20. **Trapping Rain Water** : LeetCode 42<br>
+    Given an array representing an elevation map, compute how much water it can trap after raining. Solvable with careful array traversal (precomputing left-max and right-max arrays, or a two-pointer approach), but getting the boundary logic right is genuinely difficult; this is one of LeetCode's classic "hard" array problems.
+    Link: https://leetcode.com/problems/trapping-rain-water/
 

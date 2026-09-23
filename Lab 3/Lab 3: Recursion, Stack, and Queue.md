@@ -1,6 +1,6 @@
-# Lab 2: Recursion, Stack and Queue
+# Lab 3: Recursion, Stack and Queue
 
-This document explains the three topics of Lab 2 with simple, formal descriptions and runnable C++ code. Read it before, during and after the lab session, then move on to `Basic Lab Exercises.md`.
+This document explains the three topics of Lab 3 with simple, formal descriptions and runnable C++ code. Read it before, during and after the lab session, then move on to `Basic Lab Exercises.md`.
 
 **Compile and run:**
 

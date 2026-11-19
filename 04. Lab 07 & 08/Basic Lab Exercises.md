@@ -1,6 +1,6 @@
-# Lab 7: Basic Lab Exercises
+# Lab 7 and 8: Basic Lab Exercises
 
-These exercises follow the topics in `Lab 7: Binary Search Tree and Heap.md`. Read that file first. Each task is small: write the code, compile it, run it, and compare your output with the sample. No online judge or submission is needed.
+These exercises follow the topics in `Lab 7 and 8: Binary Search Tree and Heap.md`. Read that file first. Each task is small: write the code, compile it, run it, and compare your output with the sample. No online judge or submission is needed.
 
 **Compile and run:**
 

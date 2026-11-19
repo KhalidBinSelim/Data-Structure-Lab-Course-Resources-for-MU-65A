@@ -1,4 +1,4 @@
-# Lab 7: Basic Lab Exercises Solutions
+# Lab 7 and 8: Basic Lab Exercises Solutions
 
 Solutions for `Basic Lab Exercises.md`. Try each task yourself first, then compare. There are many correct ways to write these.
 

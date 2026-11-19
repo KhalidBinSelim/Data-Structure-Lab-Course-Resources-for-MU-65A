@@ -1,6 +1,6 @@
 # Lab 7: Binary Search Tree and Heap
 
-This document explains the topics of Lab 7. Read it before, during and after the lab session, then move on to `Basic Lab Exercises.md`.
+This document explains the topics of Lab 7 and Lab 8. Read it before, during and after the lab session, then move on to `Basic Lab Exercises.md`.
 
 **Compile and run:**
 

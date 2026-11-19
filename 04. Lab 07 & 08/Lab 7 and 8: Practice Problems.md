@@ -1,4 +1,4 @@
-# Lab 7: Practice Problems
+# Lab 7 and 8: Practice Problems
 
 These problems reinforce everything covered in Lab 7 and Lab 8: binary search tree (insertion, searching, deletion, inorder/preorder/postorder traversal, minimum, maximum, height) and heap (max-heap and min-heap, heapify up and down, heap sort, and the STL `priority_queue`). Work through them in order: **Easy** first, then **Medium**, then **Hard**, and try to solve each one without looking at editorials first. Solving these on the actual judge (not just reading them) is what builds real fluency.
 
